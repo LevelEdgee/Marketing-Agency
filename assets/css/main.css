@@ -466,13 +466,13 @@ h6 {
   /* margin-right: 10px; */ /* Remove margin */
 }
 
-/* Show mobile-footer only on mobile devices */
-@media (max-width: 768px) {
+/* Hide mobile-footer on desktop devices */
+@media (min-width: 769px) {
   .mobile-footer {
-    display: flex; /* Ensure flexbox is used */
-    justify-content: space-around; /* Spread items evenly */
+    display: none;
   }
 }
+
 
 
 .footer {

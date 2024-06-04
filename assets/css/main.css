@@ -1396,19 +1396,16 @@ button:active {
 --------------------------------------------------------------*/
 .call-to-action {
   --background-color: rgb(0,107,179);
-  --default-color:#fff;
+  --default-color: #fff;
   --contrast-color: #ffffff;
   font-family: var(--heading-font);
   padding: 10px;
   position: relative;
-  /* clip-path: inset(0); */
 }
 
 .call-to-action img {
-  
-  /* display: block; */
-  /* width: 200%; */
-  height: 75%;
+  max-width: 100%; /* Ensure image does not exceed container width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .call-to-action:before {
@@ -1424,18 +1421,19 @@ button:active {
   padding: 0px;
   z-index: 3;
 }
-.call-to-action .container a{
+
+.call-to-action .container a {
   border-color: black;
   background-color: black;
   color: white;
 }
+
 .call-to-action .container a:hover {
-  background-color:black;
+  background-color: black;
   border-color: white;
   border-width: 3px;
   color: white;
 }
-
 
 .call-to-action h3 {
   color: var(--default-color);
@@ -1465,6 +1463,23 @@ button:active {
   background: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
+
+/* Adjust layout for desktop */
+@media (min-width: 992px) {
+  .call-to-action .cta-img-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:auto; /* Ensure image takes full height of container */
+    width: 30%; /* Allow image to adjust its width */
+    z-index: 1;
+  }
+
+  .call-to-action .col-xl-9 {
+    z-index: 2;
+  }
+}
+
 .stats {
   --default-color: black;
   --background-color:#fff08f;

@@ -1037,6 +1037,7 @@ button:active {
   font-family:var(--heading-font);
   font-size: larger;
 }
+
 .about ul li {
   padding-bottom: 5px;
   display: flex;
@@ -1273,6 +1274,65 @@ button:active {
   height: 10px;
   transition: 0.9s;
   background-color: var(--heading-color);
+}
+/* Default styles for desktop */
+.feature-ss-table {
+  display: flex;
+  align-items: center;
+}
+
+.feature-ss-content, .feature-ss-media {
+  flex: 1;
+}
+
+.feature-ss-content {
+  padding: 20px;
+}
+
+.feature-ss-media img {
+  width: 100%;
+  height: auto;
+}
+
+/* Alternating layout for desktop */
+.left-content .feature-ss-media {
+  order: 2;
+}
+
+.left-content .feature-ss-content {
+  order: 1;
+}
+
+.right-content .feature-ss-media {
+  order: 1;
+}
+
+.right-content .feature-ss-content {
+  order: 2;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .feature-ss-table {
+      display: block;
+  }
+
+  .feature-ss-media, .feature-ss-content {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .feature-ss-table .feature-ss-media {
+      order: 1; /* Image first */
+  }
+
+  .feature-ss-table .feature-ss-content {
+      order: 2; /* Content second */
+  }
+
+  .feature-ss-media img {
+      margin-bottom: 10px;
+  }
 }
 
 /*--------------------------------------------------------------

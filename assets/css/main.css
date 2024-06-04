@@ -1040,7 +1040,8 @@ button:active {
   padding-bottom: 5px;
   display: flex;
   align-items: center;
-  font-family:"Jost", sans-serif;
+  font-family:var(--heading-font);
+  font-size: larger;
 }
 
 .about ul i {

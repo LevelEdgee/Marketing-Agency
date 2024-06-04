@@ -798,10 +798,7 @@ section,
   padding-bottom: 60px;
   position: relative;
 }
-.section-title span{
-  font-size: 18px;
-  color: #0067ff;
-}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;

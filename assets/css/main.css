@@ -1035,6 +1035,7 @@ button:active {
 }
 .about p{
   font-family:var(--heading-font);
+  font-size: larger;
 }
 .about ul li {
   padding-bottom: 5px;

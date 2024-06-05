@@ -1484,10 +1484,13 @@ button:active {
   color: var(--default-color);
   font-size: 28px;
   font-weight: 700;
+  margin-left: 15px;
 }
 
 .call-to-action p {
   color: var(--default-color);
+  margin-left: 15px;
+
 }
 
 .call-to-action .cta-btn {
@@ -1499,7 +1502,7 @@ button:active {
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+  margin: 0px;
   border: 2px solid var(--contrast-color);
   color: var(--contrast-color);
 }

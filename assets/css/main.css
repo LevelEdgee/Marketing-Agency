@@ -118,7 +118,7 @@ h6 {
 
 @media only screen and (max-width: 768px) {
   .header .logo img {
-    max-height: 40px; /* Adjust size for smaller screens */
+    max-height: 50px; /* Adjust size for smaller screens */
   }
 }
 
@@ -891,7 +891,11 @@ section,
   margin-bottom: 0;
 }
 .nav_button {
-  padding: 10px 30px 15px;
+  margin-top: 15px;
+  /* padding: 10px 30px ; */
+  padding-bottom: 5px;
+  padding-inline: 30px;
+  padding-top: 5px;
   height: 40px;
   border: 0;
   border-radius: 100px;

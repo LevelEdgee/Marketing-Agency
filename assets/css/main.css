@@ -474,6 +474,11 @@ h6 {
 
 
 /* Hide mobile-footer on desktop devices */
+@media only screen and (max-width: 768px) {
+  iframe[src*="google.com/maps"] {
+    display: none;
+  }
+}
 @media (min-width: 769px) {
   .mobile-footer {
     display: none;
@@ -2228,7 +2233,9 @@ button:active {
   padding: 30px;
   height: 100%;
 }
-
+.info-wrap h3{
+color: black;
+}
 @media (max-width: 575px) {
   .contact .info-wrap {
     padding: 20px;

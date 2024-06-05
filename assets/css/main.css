@@ -116,6 +116,14 @@ h6 {
   margin-right: 8px;
 }
 
+@media only screen and (max-width: 768px) {
+  .header .logo img {
+    max-height: 40px; /* Adjust size for smaller screens */
+  }
+}
+
+
+
 .header .logo h1 {
   font-size: 30px;
   margin: 0;

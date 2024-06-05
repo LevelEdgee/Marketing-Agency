@@ -891,6 +891,7 @@ section,
   margin-bottom: 0;
 }
 .nav_button {
+  margin-left: 100px;
   margin-top: 20px;
   /* padding: 10px 30px ; */
   padding-bottom: 5px;

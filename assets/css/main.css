@@ -462,9 +462,7 @@ h6 {
   justify-content: space-around; /* Spread items evenly */
 }
 
-.mobile-footer a {
-  /* margin-right: 10px; */ /* Remove margin */
-}
+
 
 /* Hide mobile-footer on desktop devices */
 @media (min-width: 769px) {
@@ -485,9 +483,6 @@ h6 {
   justify-content: space-around; /* Spread items evenly */
 }
 
-.mobile-footer a {
-  /* margin-right: 10px; */ /* Remove margin */
-}
 
 /* Hide mobile-footer on desktop devices */
 @media (min-width: 769px) {

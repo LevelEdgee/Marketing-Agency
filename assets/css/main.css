@@ -1037,7 +1037,12 @@ button:active {
 
 .hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  border-radius: 15%;  
+  box-shadow: 15px 20px 60px rgba(0, 0, 0, 0.829); /* Adjust the values as needed */
+  
 }
+
+
 
 @media (max-width: 640px) {
   .hero h1 {
